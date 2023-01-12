@@ -1,0 +1,8 @@
+quarkus:
+  datasource:
+    db-kind: h2
+    username: fugerit
+    password: fugerit
+    jdbc.url: jdbc:postgresql://localhost:5432/hibernate_orm_test
+    jdbc:
+      max-size: 16
